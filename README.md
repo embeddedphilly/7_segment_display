@@ -6,6 +6,8 @@ an application that uses the module to count from 0 to 9 on that display.
 
 
 ### Getting Started
+Instructions for setting up Teensy/AVR software: https://docs.google.com/document/d/14hde-FlAY3FuboliV8YoHGabpAtk_yKehl3FWuhFWz4/
+
 Before you begin, run the following command in the main folder of your project `7_segment_display`:
 
 ```
