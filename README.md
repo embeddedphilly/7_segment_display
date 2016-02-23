@@ -14,6 +14,8 @@ Before you begin, run the following command in the main folder of your project `
 git submodule update --init
 ```
 
+[7 Segment Display Datasheet]
+(http://cal-eng.com/_support/datasheets/LiteON_(LTD-6410G).pdfr)
 
 ### Instructions
 Start by taking a look at the files in the `src` directory. These are the source files of your project - the files that compose your unique program. The other directory, `lib`, contains included libraries; code that you can access from within your program. The `Makefile` in the top project directory contains instructions for the `make` program used to compile your program. The `.gitignore` and `.gitmodules` files are settings for git source control and not related to the program. You should not edit anything but files in the `src` directory.
