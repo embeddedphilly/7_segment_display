@@ -15,7 +15,7 @@ git submodule update --init
 ```
 
 [7 Segment Display Datasheet]
-(http://cal-eng.com/_support/datasheets/LiteON_(LTD-6410G).pdfr)
+(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjF2oKFj4_LAhXElYMKHbXiBTQQFggqMAA&url=http%3A%2F%2Fcal-eng.com%2F_support%2Fdatasheets%2FLiteON_(LTD-6410G).pdf&usg=AFQjCNF7AcWebgHL70nlOMK6ikmZIfNtuw)
 
 ### Instructions
 Start by taking a look at the files in the `src` directory. These are the source files of your project - the files that compose your unique program. The other directory, `lib`, contains included libraries; code that you can access from within your program. The `Makefile` in the top project directory contains instructions for the `make` program used to compile your program. The `.gitignore` and `.gitmodules` files are settings for git source control and not related to the program. You should not edit anything but files in the `src` directory.
