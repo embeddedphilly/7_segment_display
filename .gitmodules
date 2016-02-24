@@ -3,4 +3,4 @@
 	url = https://github.com/phillyembedded/TeensyHAL.git
 [submodule "lib/HALinterfaces"]
 	path = lib/HALinterfaces
-	url = git@github.com:phillyembedded/HALinterfaces.git
+	url = https://github.com/phillyembedded/HALinterfaces.git
