@@ -45,6 +45,12 @@ int core(void)
 {
     CPU_PRESCALE(0x01);
 
-    // Your code here
+    // void SSD_Init(void);
+    // void SSD_Tick(void);
+    // void SSD_SetDisplay(uint8_t data);
+
+    SSD_Init();
+    SSD_SetDisplay(0xFF);
+    SSD_Tick();
     return 0;
 }

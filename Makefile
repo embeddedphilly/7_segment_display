@@ -7,11 +7,13 @@ OBJDUMP = avr-objdump
 SIZE = avr-size
 TARGET = demo
 SRC =	src/main.c \
+			src/seven_segment_display.c \
 
 AVRSRC = lib/TeensyHAL/src/TeensyGPIO.c
 
 OBJDIR = ./bin
 OBJ = $(SRC:src/%.c=$(OBJDIR)/%.o)
+AVROBJ = $(AVRSRC:src/%.c=$(OBJDIR)/%.o)
 
 F_CPU = 8000000
 DEBUG = dwarf-2
@@ -27,8 +29,8 @@ CFLAGS += -fshort-enums
 CFLAGS += -Wall
 CFLAGS += -Wstrict-prototypes
 CFLAGS += -std=gnu99
-CFLAGS += -Ilib/teensy-hal/src/
-CFLAGS += -Ilib/hal-interfaces/headers/
+CFLAGS += -Ilib/TeensyHAL/src/
+CFLAGS += -Ilib/HALinterfaces/headers/
 CFLAGS += -Isrc/
 
 
